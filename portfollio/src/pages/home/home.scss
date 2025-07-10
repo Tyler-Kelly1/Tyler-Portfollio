@@ -1,5 +1,4 @@
 #root {
-  max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
@@ -9,7 +8,7 @@
 .mainContainer{
 
     border: red 2px dashed;
-    width: 65vw;
+    width: 90vw;
     height: 80vw;
     display: grid;
     grid-auto-rows: 1fr 1.5fr 2fr;   
