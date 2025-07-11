@@ -1,17 +1,22 @@
-#root {
+
+
+@media screen and (min-width: 850px) {
+  #root {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
+  min-width: 10dvw;
+    }
 
-
-.mainContainer{
+    .mainContainer{
 
     border: red 2px dashed;
+    background-color: rgba(75, 75, 75, 0.486);
     width: 80vw;
     height: 100vw;
     display: grid;
-    grid-auto-rows: 1fr 1.5fr 2fr;   
+    grid-auto-rows: 0.75fr 1fr 2fr;
+    gap: 1vw;   
 
     .heroContainer{
         border: red 2px dashed;
@@ -32,3 +37,7 @@
         height: 100%;
     }
 }
+
+}
+
+
