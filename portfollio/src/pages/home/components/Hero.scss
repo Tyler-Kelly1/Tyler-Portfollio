@@ -1,35 +1,87 @@
 
-.heroText{
+
+@media screen and (min-width: 376px) {
+
+    .heroText{
     margin-top: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr;
     max-height: fit-content;
-}
+    }
 
-.name{
-    margin: auto;
-    font-size: 15vh;
-    grid-column: span 3;
-    background-color: yellow; 
-}
-
-.flick{
-    grid-column: span 1;
-    width: 50%;
-    height: 100%;
-    background-color: red;
-    margin-top: 1rem;
-    margin-left: auto;
-    margin-right: auto;
     
+    
+    
+    .name{
+        margin: auto;
+        font-size: 12vh;
+        grid-column: span 3;
+        background-color: yellow; 
+    }
+
+    .flick{
+        grid-column: span 1;
+        width: 50%;
+        height: 100%;
+        background-color: red;
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .description{
+        background-color: aqua;
+        grid-column: span 2; 
+        margin-top: 1rem;
+        font-size: 2.5vh;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
 }
 
-.description{
-    background-color: aqua;
-    grid-column: span 2; 
-    margin-top: 1rem;
-    font-size: 2.5vh;
-    width: 100%;
-    height: 100%;
+
+@media screen and (max-width: 376px) {
+
+    .heroText{
+    display: grid;
+    grid-template-columns: 1fr; 
+    grid-template-rows: auto;
+    max-height: fit-content;
+    }
+    
+    
+    .name{
+        font-size: 6vh;
+        background-color: yellow; 
+    }
+
+    .flick{
+        width: 50%;
+        height: 20vh;
+        background-color: red;
+        margin-top: 2.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .description{
+        margin-top: 2.5rem;
+        background-color: aqua;
+        margin-top: 1rem;
+        font-size: 2vh;
+        width: 100%;
+        height: 100%;
+    }
+
+
+
 }
+
+
