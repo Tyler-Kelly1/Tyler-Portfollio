@@ -9,10 +9,10 @@ import Blog from './pages/blog/blog.tsx'
 function App() {
 
   return (
-    <Router>
+    <Router basename='Tyler-Portfollio'>
       <Routes>
-        <Route path="Tyler-Portfollio/" element={<Home/>}></Route>
-        <Route path="Tyler-Portfollio/blog" element={<Blog/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/blog" element={<Blog/>}></Route>
       </Routes>
     </Router>
   )
