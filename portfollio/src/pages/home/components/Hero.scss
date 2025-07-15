@@ -1,17 +1,19 @@
 
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 500px) {
 
     .heroText{
     margin-top: 1.5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     max-height: fit-content;
     }
 
-    
-    
+    .navHeroCont{
+    grid-column: span 3;
+
+    }
     
     .name{
         margin: auto;
@@ -22,7 +24,7 @@
 
     .flick{
         grid-column: span 1;
-        width: 50%;
+        width: 70%;
         height: 100%;
         background-color: red;
         margin-top: 1rem;
@@ -45,7 +47,7 @@
 }
 
 
-@media screen and (max-width: 376px) {
+@media screen and (max-width: 500px) {
 
     .heroText{
     display: grid;
@@ -54,14 +56,18 @@
     max-height: fit-content;
     }
     
+    .navHeroCont{
+        width: 100%;
+        margin-top: 10px;
+    }
     
     .name{
-        font-size: 6vh;
+        font-size: 5vh;
         background-color: yellow; 
     }
 
     .flick{
-        width: 50%;
+        width: 40%;
         height: 20vh;
         background-color: red;
         margin-top: 2.5rem;
