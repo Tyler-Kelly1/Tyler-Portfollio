@@ -1,6 +1,7 @@
 
 import "./home.scss"
 import Hero from "./components/Hero"
+import ProjectsSection from "./components/projectSection"
 
 function Home() {
 
@@ -9,8 +10,8 @@ function Home() {
 
     <div className="mainContainer">
       <div className="heroContainer"><Hero/></div>
+      <div className="projectsContainer"><ProjectsSection/></div>
       <div className="blogContainer">BLOG</div>
-      <div className="projectsContainer">PROJECTS</div>
     </div>
     
     </>
